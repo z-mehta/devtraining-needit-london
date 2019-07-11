@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.AlienVault</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>AlienVault</name>
+        <script><![CDATA[var AlienVault = Class.create();
+AlienVault.prototype = {
+    initialize: function() {
+		var oAuthClient = new sn_auth.GlideOAuthClient();
+
+var params = {grant_type:"password", username:'MRK3nw54', password:'EW3wZQng/MfnTc90Y/80Jn+wUdL2PmPwodebPRPQDU+tc6EH1NZvoU/URdy2hoysLlEsfB0JoDr3GN2Vboy1AQ=='};
+
+var json = new global.JSON();
+
+var text = json.encode(params);
+
+var tokenResponse = oAuthClient.requestToken('unique consumer profile name from step 2.1', text);
+
+var token = tokenResponse.getToken();
+
+gs.log("AccessToken:" + token.getAccessToken());
+
+gs.log("AccessTokenExpiresIn:" + token.getExpiresIn());
+
+gs.log(" RefreshToken:" + token.getRefreshToken());
+    },
+
+    type: 'AlienVault'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-03 04:19:42</sys_created_on>
+        <sys_id>befa8f5fdb963300d5a684da0b9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>AlienVault</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_befa8f5fdb963300d5a684da0b9619a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-03 04:19:42</sys_updated_on>
+    </sys_script_include>
+</record_update>

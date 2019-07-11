@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>MRK3nw54</client_id>
+        <client_secret>dOh3taHYdGj2/jBbfjcTyjjn9ig5gQk7aOwcbSOWulXhGfSVE46hb/hbXo54fCXky0X1hxyPZoOQdzHgYmJxUno9q1X3D9Ydq9wtWkkhOxZeMUfyWQtXjnsxpJr4TKMY</client_secret>
+        <client_uuid>4e649717dbd63300d5a684da0b9619c3</client_uuid>
+        <comments/>
+        <default_grant_type>client_credentials</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>AlienVault</name>
+        <oauth_api_script display_value="OAuthUtil">3e3a3a11c333210016194ffe5bba8f70</oauth_api_script>
+        <protocol_name/>
+        <redirect_url>https://dev78481.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>8640000</refresh_token_lifespan>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-03 04:58:06</sys_created_on>
+        <sys_id>ce649717dbd63300d5a684da0b9619c3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>AlienVault</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>oauth_entity_ce649717dbd63300d5a684da0b9619c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-03 13:31:35</sys_updated_on>
+        <token_url>https://datapath.alienvault.cloud/api/1.1//oauth/token?grant_type=client_credentials</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

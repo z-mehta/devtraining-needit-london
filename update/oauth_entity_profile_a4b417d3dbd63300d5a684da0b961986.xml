@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_profile">
+    <oauth_entity_profile action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <grant_type>client_credentials</grant_type>
+        <name>AlienVault default_profile</name>
+        <oauth_entity display_value="AlienVault">ce649717dbd63300d5a684da0b9619c3</oauth_entity>
+        <sys_class_name>oauth_entity_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-03 04:58:06</sys_created_on>
+        <sys_id>a4b417d3dbd63300d5a684da0b961986</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>AlienVault default_profile</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>oauth_entity_profile_a4b417d3dbd63300d5a684da0b961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-03 05:02:35</sys_updated_on>
+    </oauth_entity_profile>
+</record_update>
